@@ -1,0 +1,364 @@
+/* Inicio menú*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* Menú redes sociales */
+.navbar-rrss {
+  background-color: #34383b !important;
+  color: #fff;
+}
+.navbar-rrss a:hover {
+  color: #ed6d24;
+}
+.navbar-rrss a {
+  color: #fff;
+}
+
+.navbar-rrss .nav-decoration {
+  border-left: solid #fff 2px;
+  border-right: solid #fff 2px;
+}
+
+/* Menú principal */
+.navbar-principal .active {
+  background-color: #ed6d24;
+}
+
+.navbar-principal .active a {
+  color: white !important;
+}
+
+.navbar-principal .active a:hover,
+.navbar-principal .dropdown-menu a{
+  color: #212121  !important;
+}
+.navbar-principal a:hover {
+  color: #ed6d24;
+}
+
+.navbar-principal .active .dropdown-item {
+  color: #000;
+}
+.navbar-principal li a {
+  color: #000;
+}
+
+/* Header */
+.section-banner img{
+ width: 100%;
+    height: 687px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-caption{
+  position: absolute;
+    right: 15%;
+    top: 125px;
+    left: 7%;
+    z-index: 10;
+    color: #fff;
+    text-align: inherit;
+}
+
+.section-banner .text-banner {
+  color: #fff;
+}
+
+.section-banner h1 {
+  font-weight: bold;
+}
+
+.section-banner h3 {
+  font-size: 18px;
+}
+
+.btn-banner {
+  border-radius: 18px;
+  width: 140px;
+}
+/* main */
+
+.btn-outline-primary:hover,
+.btn-primary:hover {
+  border: solid #212121;
+  background-color: #212529;
+}
+.btn-primary {
+  background-color: #ed6d24;
+  border-color: #ed6d24;
+}
+.btn-outline-primary {
+  border-color: #fff;
+  color: #fff;
+}
+
+.section-padding {
+  padding: 40px 0;
+}
+.section-cards-explation .card {
+  background-color: #eaeaea;
+  border: solid #d1cece 1px;
+  margin: 10px 0;
+}
+
+.section-cards-explation h5 {
+  font-weight: bold;
+}
+
+.section-cards-explation .card img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+.section-gray {
+  background-color: #eaeaea;
+}
+
+.form-img {
+  height: 430px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-carousel .secundary-title-carousel {
+  font-size: 16px;
+}
+.section-carousel h5 {
+  font-size: 14px;
+}
+.card {
+  border-radius: 0;
+}
+.orange-color,
+.title-outstanding,
+.title-section span {
+  color: #ed6d24;
+}
+
+input,
+select,
+.form-button {
+  margin: 20px 0;
+}
+.form-title {
+  padding: 40px 0 20px 0;
+}
+
+.title-section {
+  font-weight: bold;
+}
+
+.owl-carousel .owl-item img {
+  border-radius: 0;
+}
+
+.card-footer .align-content,
+.card-info-events,
+.card-info-events .align-content {
+  display: flex;
+}
+
+.card-info-events .align-content p,
+.card-footer .info-text {
+  margin-left: 5px;
+}
+
+.card-info-events .align-content p {
+  font-size: 14px;
+}
+
+.card-footer .btn {
+  border-radius: 0;
+  display: block;
+}
+
+/* Carousel */
+.owl-carousel-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.box-arrow {
+  font-size: 30px;
+  background-color: #ed6d24;
+  padding: 0 10px;
+  color: #fff;
+}
+
+.box-arrow:hover {
+  background-color: #212529;
+}
+
+.info-price {
+  border-radius: 0;
+  display: block;
+  text-align: center;
+  padding: 0.375rem 0.75rem;
+  background: #ed6d24;
+  color: #fff;
+}
+
+/* Upcoming events */
+
+.date-card {
+  text-align: center;
+  background: #ed6d24;
+  margin: 20px auto;
+  color: white;
+  width: 63px;
+  height: 80px;
+  padding: 4px;
+}
+
+.date-card p {
+  margin-bottom: 0;
+}
+
+.date-card hr {
+  background-color: #fff;
+  height: 2px !important;
+  width: auto;
+  border-radius: 0;
+  margin: 9px 4px;
+}
+
+/* Why Choose us */
+.accordion-button {
+  display: block;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f4ae86;
+  color: #fff;
+}
+
+.accordion-button:not(.collpsed) .line {
+  display: none;
+}
+
+.accordion-button:not(.collapsed)::after .line {
+  display: block;
+}
+
+.accordion-flush .accordion-collapse {
+  border-left: dashed 2px #474b4e;
+  margin-left: 20px;
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  margin-bottom: 2px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  float: left !important;
+  content: "\f068";
+  background-image: none;
+  background-color: #ed6d24;
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.accordion-button::after {
+  float: left !important;
+  font-family: FontAwesome;
+  content: "\f067";
+  padding-right: 5px;
+  background-image: none;
+  background-color: #ed6d24;
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+/* Footer */
+.section-footer {
+  background-color: #474b4e;
+}
+
+.section-footer i {
+  color: #fff;
+  font-size: 28px;
+}
+
+.section-footer h2 {
+  color: #ed6d24;
+}
+
+.section-footer h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+hr {
+  background-color: #ed6d24;
+  height: 4px !important;
+  opacity: 1;
+  width: 68px;
+  border-radius: 2px;
+}
+
+.card-upcoming{
+  max-width: 540px
+}
+
+.navbar-responsive-help-principal{
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .navbar-responsive-help{
+    display: none !important;
+  }
+  .owl-nav{
+    display: none;
+  }
+  .navbar-responsive-rrss{
+    display: contents;
+  }
+
+  .navbar-responsive-help-principal{
+    display: block;
+  }
+  .form-img {
+    height: 350px;
+  }
+  .owl-carousel .card {
+    margin: 0 10px;
+  }
+
+  .owl-carousel-buttons {
+    display: block;
+  }
+  .section-padding-responsive {
+    padding: 20px 40px !important;
+  }
+
+  .section-form .section-gray{
+    width: 96%;
+    margin: auto;
+  }
+  .card-upcoming{
+    max-width: 100%
+  }
+  .card-title-upcoming{
+    text-align: center !important;
+  }
+  .card-info-events{
+    justify-content: center !important;
+  }
+}
